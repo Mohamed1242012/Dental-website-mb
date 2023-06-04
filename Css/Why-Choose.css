@@ -1,0 +1,39 @@
+.card-title{
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 3rem;
+    color:#3ab286;
+}
+.carousel-item{
+    background-color: transparent;
+    border-style: none;
+}
+.carousel{
+    background-color: transparent;
+    border-style: none;
+}
+#why-choose{
+    padding: 8rem 2rem;
+    text-align: center;
+}
+.card{
+    padding: 4rem;
+    border-style: none;
+    margin: 8rem;
+    height: 55rem;
+}
+.card-text{
+    font-size: 2rem;
+    letter-spacing: 4px;
+}
+.why-c-img{
+    width: 80%;
+    margin: 0 auto 0 auto;
+    margin-top: 3rem;
+}
+.white-bg-title{
+    font-size: 4.5rem;
+    font-weight: 800;
+    margin-bottom: 0rem;
+    color:#3ab286;
+}

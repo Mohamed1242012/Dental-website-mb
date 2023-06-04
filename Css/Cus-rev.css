@@ -1,0 +1,42 @@
+#Cus-rev{
+    padding: 8rem 10rem;
+    text-align: center;
+}
+.cus-rev-img{
+    float: left;
+    height: 13rem;
+    border-radius: 100%;
+    margin-right: 3.25rem;
+    margin-bottom: 11rem;
+}
+.Cus-rev-item{
+    margin-bottom: 5rem;
+}
+.cus-rev-txt{
+    font-size: 3.25rem;
+    font-weight: 800;
+    color: #3ab286;
+    text-align: left;
+    margin: 0;
+}
+.stars-group{
+    font-size: 2.7rem;
+    text-align: left;
+}
+.shadow-lg{
+    box-shadow: 0 0rem 8rem rgba(0,0,0,.4)!important;
+}
+.fa-star{
+    color: #ced4da;
+}
+.checked{
+    color: orange;
+}
+.par-rev{
+    font-size: 2.6rem;
+    text-align: left;
+    color: #8a8d91;
+}
+.cus-rev-gr{
+    margin-top: 8rem;
+}

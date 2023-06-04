@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+        integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/1ea4b8a1eb.js" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.0/js/all.js"></script>
+    <script src="https://kit.fontawesome.com/1ea4b8a1eb.js" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.0/js/all.js"></script>
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap"
+        rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="Css/Hi.css">
+    <link rel="stylesheet" href="Css/Why-Choose.css">
+    <link rel="stylesheet" href="Css/Degrees.css">
+    <link rel="stylesheet" href="Css/Cus-rev.css">
+    <link rel="stylesheet" href="Css/menu.css">
+
+</head>
+
+<body>
+
+    <div onclick="menu_open()" class="hamburg">
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+    </div>
+
+    <div style="visibility :hidden;" class="menu">
+        <div class="all-m">
+
+            <div class="menu-links">
+                <a onclick="close_link()" href="#Hi">
+                    <h2 class="menu-link">Hi</h2>
+                </a>
+                <a onclick="close_link()" href="#why-choose">
+                    <h2 class="menu-link">Why Me</h2>
+                </a>
+                <a onclick="close_link()" href="#Degrees">
+                    <h2 class="menu-link">Degrees</h2>
+                </a>
+                <a onclick="close_link()" href="#Cus-rev">
+                    <h2 class="menu-link">Reviews</h2>
+                </a>
+                <a onclick="close_link()" href="tel:+971563375662">
+                    <h2 class="menu-link">+971 5633 756 62</h2>
+                </a>
+                <a onclick="close_link()" href="mailto:mo212el4@gmail.com">
+                    <h2 class="menu-link">mo212el4@gmail.com</h2>
+                </a>
+            </div>
+            <div class="so-mi-gr">
+                <a href="https://wa.me/qr/HVHMQEG5SLRJI1"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.facebook.com/mohamed.meky.9212301?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://instagram.com/mohamed_elsayed_212?igshid=MzNlNGNkZWQ4Mg=="><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <div class="two-but">
+                <a href="https://goo.gl/maps/GKSLgnoZL4fTUUR47"><button type="button" class="btn btn-light btn-lg">Location</button></a>
+                <a href="https://www.noon.com/uae-en/books/"><button type="button" class="btn btn-light btn-lg">Books</button></a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div style="visibility: visible;" class="main">
+
+
+
+
+
+        <section id="Hi">
+            <h1 class="bold">Hi</h1>
+            <div class="img-and-iam">
+                <h1 class="bes-dentor light">I'm <span class="bold">Jake</span></h1>
+                <img class="dentor" src="img/dentor.png" alt="">
+            </div>
+            <h1 class="light">a <span class="bold">Dent<span class="space"></span>st</span></h1>
+            <img class="tooth" src="img/toothbrush.png" alt="">
+        </section>
+
+        <section id="why-choose">
+            <h2 class="white-bg-title">Why Choose Me</h2>
+
+
+
+
+
+
+
+
+
+            <div id="carouselExampleAutoplaying" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card shadow-lg rounded-5">
+                            <div class="card-body">
+                                <h5 class="card-title">Cost</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod
+                                    tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation
+                                    ullamco laboris nisi ut aliquip .</p>
+                            </div>
+                            <img src="https://cmcdubai.ae/wp-content/uploads/2022/09/Clemenceau-Medical-Center-Hospital-logo-1.png"
+                                class="card-img-top why-c-img" alt="...">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card shadow-lg rounded-5">
+                            <div class="card-body">
+                                <h5 class="card-title">Trust</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod
+                                    tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation
+                                    ullamco laboris nisi ut aliquip .</p>
+                            </div>
+                            <img src="https://www.phukethospital.com/wp-content/uploads/2019/06/LOGO-BPK-2019.png"
+                                class="card-img-top why-c-img" alt="...">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card shadow-lg rounded-5">
+                            <div class="card-body">
+                                <h5 class="card-title">Inquiries</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod
+                                    tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation
+                                    ullamco laboris nisi ut aliquip .</p>
+                            </div>
+                            <img src="https://images.saudigerman.com/wp-content/uploads/2020/02/29100714/SGH-UAE-Logo-01.png"
+                                class="card-img-top why-c-img" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+
+
+
+        </section>
+
+
+
+
+        <section id="Degrees">
+            <h2 class="teal-bg-title">Degrees</h2>
+
+
+
+            <div id="carouselExampleAutoplaying2" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card shadow-lg rounded-5">
+                            <div class="card-body">
+                                <h5 class="card-title">Cost</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod
+                                    tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation
+                                    ullamco laboris nisi ut aliquip .</p>
+                            </div>
+                            <img src="https://cmcdubai.ae/wp-content/uploads/2022/09/Clemenceau-Medical-Center-Hospital-logo-1.png"
+                                class="card-img-top why-c-img" alt="...">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card shadow-lg rounded-5">
+                            <div class="card-body">
+                                <h5 class="card-title">Trust</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod
+                                    tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation
+                                    ullamco laboris nisi ut aliquip .</p>
+                            </div>
+                            <img src="https://www.phukethospital.com/wp-content/uploads/2019/06/LOGO-BPK-2019.png"
+                                class="card-img-top why-c-img" alt="...">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card shadow-lg rounded-5">
+                            <div class="card-body">
+                                <h5 class="card-title">Inquiries</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod
+                                    tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation
+                                    ullamco laboris nisi ut aliquip .</p>
+                            </div>
+                            <img src="https://images.saudigerman.com/wp-content/uploads/2020/02/29100714/SGH-UAE-Logo-01.png"
+                                class="card-img-top why-c-img" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying2"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying2"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+
+
+
+        </section>
+
+        <section id="Cus-rev">
+
+            <h2 class="white-bg-title">Customer Review</h2>
+            <div class="cus-rev-gr">
+
+
+                <div class="Cus-rev-item">
+
+                    <div class="img-and-see">
+                        <img class="shadow-lg cus-rev-img"
+                            src="https://www.pngkit.com/png/full/639-6399637_henry-circle-gentleman.png" alt="">
+                    </div>
+
+
+
+                    <div class="info-rev">
+                        <h3 class="cus-rev-txt">Zain Khalid</h3>
+                        <div class="stars-group">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </div>
+                        <p class="par-rev">Lorem ipsum dolor sit amet, conse adip elit, sed do eiusmod tempor incidi ...
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="Cus-rev-item">
+
+                    <div class="img-and-see">
+                        <img class="shadow-lg cus-rev-img"
+                            src="https://www.pngkit.com/png/full/639-6399637_henry-circle-gentleman.png" alt="">
+                    </div>
+
+
+
+                    <div class="info-rev">
+                        <h3 class="cus-rev-txt">Ahmed Fawas</h3>
+                        <div class="stars-group">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <p class="par-rev">Lorem ipsum dolor sit amet, conse adip elit, sed do eiusmod tempor incidi ...
+                        </p>
+                    </div>
+
+                </div>
+
+
+
+                <div class="Cus-rev-item">
+
+                    <div class="img-and-see">
+                        <img class="shadow-lg cus-rev-img"
+                            src="https://www.pngkit.com/png/full/639-6399637_henry-circle-gentleman.png" alt="">
+                    </div>
+
+
+
+                    <div class="info-rev">
+                        <h3 class="cus-rev-txt">Hamad Elsayed</h3>
+                        <div class="stars-group">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                        </div>
+                        <p class="par-rev">Lorem ipsum dolor sit amet, conse adip elit, sed do eiusmod tempor incidi ...
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+
+</html>

@@ -1,0 +1,49 @@
+.menu {
+    background-color: #3ab286;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.menu-link {
+    color: white;
+    font-weight: 800;
+    font-size: 4rem;
+    letter-spacing: 0.5rem;
+    margin: 4rem 0;
+}
+
+.fa-brands {
+    font-size: 7rem;
+    color: white;
+    margin: 3rem 5rem;
+}
+
+.so-mi-gr {
+    margin: 5rem;
+}
+
+.btn {
+    height: 8rem;
+    width: 23rem;
+    font-size: 3.5rem;
+    font-weight: 800;
+    border: none;
+    border-radius: 1000000000000000000px;
+    background-color: white;
+    margin: 0 2rem;
+    color: #3ab286;
+}
+
+
+.btn:hover {
+    background-color: #F2F1F2;
+    color: #297e5f;
+}
+
+a{
+    text-decoration: none;
+}

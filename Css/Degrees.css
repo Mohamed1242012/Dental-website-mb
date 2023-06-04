@@ -1,0 +1,15 @@
+#Degrees{
+    padding: 8rem 2rem;
+    text-align: center;
+    background-color: #3ab286;
+}
+.teal-bg-title{
+    font-size: 4.5rem;
+    font-weight: 800;
+    margin-bottom: 0rem;
+    color:white;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    width: 3rem;
+    height: 3rem;
+}

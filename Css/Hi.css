@@ -1,0 +1,63 @@
+.menu-line{
+    height: 0.5rem;
+    width: 5rem;
+    background-color: black;
+    margin: 1rem;
+
+
+}
+.hamburg{
+    margin: 2.5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+}
+#Hi{
+    text-align: center;
+    background-color: #3ab286;
+    font-family: 'Mulish', sans-serif;
+    padding: 15rem 8rem 4rem 8rem;
+}
+h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 8rem;
+    color: white;
+}
+body{
+    margin: 0;
+}
+.bes-dentor{
+    display: inline-block;
+}
+.dentor{
+    display: inline-block;
+    width: 12rem;
+    background-color: white;
+    border-radius: 100%;
+    position: relative;
+    bottom: 2rem;
+    margin-left: 2rem;
+}
+.light{
+    font-weight:300;
+}
+.bold{
+    font-weight:900;
+}
+.img-and-iam{
+    margin-top: 2rem;
+}
+.tooth{
+    width: 2.5rem;
+    position: relative;
+    bottom: 7rem;
+    left:9.2rem;
+}
+.space{
+    margin-right: 4.8rem;
+}
